@@ -1,9 +1,13 @@
-# Task 2: Navigation mit Flexbox erstellen
+# Task 3: Navigation mit Flexbox erstellen
 
 ## Ziel
+Verstehen Sie das Konzept von **CSS Flexbox** durch ein interaktives Lernspiel.
 Erstellen Sie eine Navigationsleiste mit HTML und gestalten Sie diese mit **CSS Flexbox**.
 
 ## Anforderungen
+- Spielen Sie das kostenlose Lernspiel **[Flexbox Zombies](https://mastery.games/flexboxzombies/)**.
+- Arbeiten Sie mindestens **bis Level 10**, um die Grundlagen von Flexbox zu verstehen.
+- Notieren Sie sich wichtige Konzepte für später.
 - Fügen Sie in den `<header>` eine **Navigation** (`<nav>`) mit einer Liste (`<ul>`) hinzu.
 - Erstellen Sie darin mindestens drei Links (`<a>`), z. B. für „Start“, „Projekte“ und „Kontakt“.
 - Nutzen Sie **CSS Flexbox**, um die Navigation horizontal auszurichten.
@@ -39,3 +43,6 @@ nav {
     justify-content: center;
 }
 ```
+
+## Anforderungen
+

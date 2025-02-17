@@ -1,4 +1,4 @@
-# Task 3: Responsive Design mit Media Queries
+# Task 4: Responsive Design mit Media Queries
 
 ## Ziel
 Passen Sie die Webseite an verschiedene Bildschirmgrößen an, indem Sie **CSS Media Queries** nutzen.
