@@ -3,6 +3,22 @@
 ## Ziel
 Erstellen Sie die Grundstruktur einer Portfolio-Webseite mit HTML.
 
+## Theorie
+
+Beschäftigen Sie sich mit der Theorie wie eine HTML Seite aufgebaut ist.
+
+- [HTML Grundlagen](https://www.w3schools.com/html/default.asp)
+- [HTML Introduction](https://www.w3schools.com/html/html_intro.asp)
+- [HTML Topic (Notes)](https://notes.myown.one/#/page/topic%2Fhtml)
+
+Versuchen Sie folgende Fragen zu beantworten:
+
+- Für was ist eine HTML-Datei? 
+- Wie ist einen HTML-Datei aufgebaut? 
+    - Was ist ein HTML-Element und wie sieht ein Beispiel dazu aus?
+    - Was ist ein HTML-Attribute und 
+
+
 ## Anforderungen
 - Erstellen Sie eine neue Datei mit dem Namen `index.html`.
 - Strukturieren Sie die Seite sinnvoll mit HTML-Elementen:
@@ -16,7 +32,8 @@ Erstellen Sie die Grundstruktur einer Portfolio-Webseite mit HTML.
   - Eine Liste (<ul> oder <ol>) mit mindestens drei Stärken, Fähigkeiten oder Interessen.
   - Ein Abschnitt (<section>) für ein Beispielprojekt oder ein Bild mit Beschreibung.
   - Eine Kontaktmöglichkeit (<section> mit <p> oder <a> für E-Mail-Adresse oder Social Media-Links).
-- Nutzen Sie den **MDN Web Docs** Artikel zu [HTML-Grundlagen](https://developer.mozilla.org/de/docs/Learn/HTML/Introduction_to_HTML) als Hilfestellung.
+- Nutzen Sie den **MDN Web Docs** Artikel zu [HTML-Grundlagen MDN](https://developer.mozilla.org/de/docs/Learn/HTML/Introduction_to_HTML) als Hilfestellung.
+- Referenzen für alle HTML-Elemente
 
 # Freiwillige Zusatzaufgabe
 Formular mit Input-Elementen und Buttons
