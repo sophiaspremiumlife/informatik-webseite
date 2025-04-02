@@ -1,27 +1,59 @@
 # Task 3: Navigation mit Flexbox erstellen
 
-## Ziel
-Verstehen Sie das Konzept von **CSS Flexbox** durch ein interaktives Lernspiel.
-Erstellen Sie eine Navigationsleiste mit HTML und gestalten Sie diese mit **CSS Flexbox**.
+## Ziel  
+Sie erstellen eine horizontale Navigationsleiste mit HTML und gestalten diese mithilfe von **CSS Flexbox**. Dabei lernen Sie, wie sich Webseitenlayouts flexibel und responsiv gestalten lassen.
+
+---
+
+## Theorieteil: Was bedeutet „Layout“?
+
+Eine Webseite besteht meist aus mehreren **visuell getrennten Bereichen**. Typische Layout-Elemente sind:
+
+- ein **Kopfbereich** (`<header>`)
+- ein **Navigationsbereich** (`<nav>`)
+- ein **Hauptbereich** mit Inhalt (`<main>`)
+- eine **Seitenleiste** (`<aside>`)
+- ein **Fussbereich** (`<footer>`)
+
+Früher wurden solche Layouts oft mit Tabellen oder sogenannten „Float“-Techniken umgesetzt – diese Methoden sind jedoch veraltet oder kompliziert. **CSS Flexbox** ist eine moderne Lösung, um Elemente auf einfache Weise **horizontal oder vertikal** anzuordnen – auch auf verschiedenen Bildschirmgrössen.
+
+---
+
+## Vorbereitung: Flexbox kennenlernen
+
+- Spielen Sie das interaktive Lernspiel **[Flexbox Zombies](https://mastery.games/flexboxzombies/)**.
+- Bearbeiten Sie mindestens **bis Level 10**, um die wichtigsten Eigenschaften zu verstehen:
+  - `display: flex`
+  - `justify-content`
+  - `align-items`
+  - `flex-direction`
+
+> Weitere Informationen finden Sie im [MDN-Artikel zu Flexbox](https://developer.mozilla.org/de/docs/Web/CSS/CSS_Flexible_Box_Layout)
+
+---
 
 ## Anforderungen
-- Spielen Sie das kostenlose Lernspiel **[Flexbox Zombies](https://mastery.games/flexboxzombies/)**.
-- Arbeiten Sie mindestens **bis Level 10**, um die Grundlagen von Flexbox zu verstehen.
-- Notieren Sie sich wichtige Konzepte für später.
-- Fügen Sie in den `<header>` eine **Navigation** (`<nav>`) mit einer Liste (`<ul>`) hinzu.
-- Erstellen Sie darin mindestens drei Links (`<a>`), z. B. für „Start“, „Projekte“ und „Kontakt“.
-- Nutzen Sie **CSS Flexbox**, um die Navigation horizontal auszurichten.
-- Verwenden Sie den Artikel zu [CSS Flexbox](https://developer.mozilla.org/de/docs/Web/CSS/CSS_Flexible_Box_Layout) als Referenz.
+
+1. Ergänzen Sie den `<header>` Ihrer HTML-Seite um ein `<nav>`-Element mit einer ungeordneten Liste (`<ul>`) von mindestens drei Links:
+   - Start
+   - Projekte
+   - Kontakt
+2. Verwenden Sie **CSS Flexbox**, um die Links horizontal anzuordnen.
+3. Zentrieren Sie die Navigation innerhalb des Headers (`justify-content: center`).
+
+---
 
 ## Hinweise
-- Denken Sie an eine **semantische Struktur**: Warum wird `<nav>` verwendet?
-- Testen Sie die Navigation im Browser, um die Darstellung zu überprüfen.
-- Falls die Links untereinander erscheinen, prüfen Sie, ob `display: flex;` korrekt gesetzt ist.
-- Verwenden Sie `justify-content: center;`, um die Links mittig auszurichten.
 
-# Task 2: Navigation mit Flexbox erstellen
+- Verwenden Sie eine **externe CSS-Datei** für Ihre Gestaltung.
+- Achten Sie auf die semantische Korrektheit Ihrer HTML-Struktur.
+- Sollte die Navigation nicht wie gewünscht angezeigt werden, überprüfen Sie:
+  - Ob `display: flex` korrekt gesetzt ist
+  - Ob Sie `ul` und `li` angepasst haben (z. B. `list-style: none;`, `padding: 0`)
 
-## Beispiel 
+---
+
+## Beispiel HTML
 
 ```html
 <header>
@@ -38,11 +70,16 @@ Erstellen Sie eine Navigationsleiste mit HTML und gestalten Sie diese mit **CSS 
 ## Beispiel CSS
 
 ```css
-nav {
+nav ul {
     display: flex;
-    justify-content: center;
+    /* noch mehr styles */
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 1rem;
 }
 ```
 
-## Anforderungen
 
