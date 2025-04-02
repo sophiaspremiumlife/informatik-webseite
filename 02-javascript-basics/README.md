@@ -10,17 +10,12 @@ Dieses Repository enthält alle notwendigen Materialien, um grundlegende Konzept
 
 ## Nutzung des Repositories
 
-1. **Klonen Sie das Repository:**
-   ```bash
-   git clone <URL_des_Repositories>
-   cd javascript-basics
-   ```
 
-2. **Arbeiten Sie an den Aufgaben:**
+1. **Arbeiten Sie an den Aufgaben:**
    - Jede Aufgabe ist im Ordner `tasks/` ausführlich beschrieben.
    - Speichern Sie Ihre Lösungen im entsprechenden Ordner im Verzeichnis `solutions/`.
 
-3. **Abgabe:**
+2. **Abgabe:**
    - **Option 1:** Erstellen Sie ein eigenes GitHub-Repository, pushen Sie Ihre Änderungen und teilen Sie den Link.
    - **Option 2:** Nutzen Sie das bereitgestellte Python-Skript `create_zip.py`, um ein ZIP-Archiv Ihrer Arbeit zu erstellen, und laden Sie dieses in Microsoft Teams hoch.
 
