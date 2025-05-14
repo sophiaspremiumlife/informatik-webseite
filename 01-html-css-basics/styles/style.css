@@ -6,8 +6,8 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: #a75e5e;
+    color: rgb(134, 35, 35);
     padding: 1em;
     text-align: center;
 }
@@ -20,4 +20,16 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+img {
+    width: 90%
+}
+
+.blauerhintergrund {
+    background-color: blue;
+}
+
+.kursiv {
+    font-style: italic;
 }
